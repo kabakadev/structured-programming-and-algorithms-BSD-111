@@ -5,9 +5,14 @@ int main(){
     float height;
     double bank_balance;
     long phone_number;
-
+    
+    printf("Enter your height in metres(m):");
     scanf("%f", &height);
+
+    printf("Enter your bank balance:");
     scanf("%lf", &bank_balance);
+
+    printf("enter your phone number:");
     scanf("%ld", &phone_number);
 
     printf("Height: %f\n", height);
