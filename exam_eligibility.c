@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/* AUthor: Ian Kabaka, 
+
+admission number:BCS-03-0068/2026
+ Date May 25 2026 */
+
 int main(){
     int attendance;
     float average_marks;
@@ -16,4 +21,6 @@ int main(){
     else{
         printf("Not eligible.");
     }
+
+    return 0;
 }

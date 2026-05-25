@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/* AUthor: Ian Kabaka, 
+
+admission number:BCS-03-0068/2026
+ Date May 25 2026 */
+
 int main(){
     double water_units;
     int low_end_units = 20;
@@ -23,6 +28,8 @@ int main(){
     else{
         printf("This number is invalid");
     }
+
+    printf("The total bill is: %.2lf\n", total_bill);
 
     return 0;
 }

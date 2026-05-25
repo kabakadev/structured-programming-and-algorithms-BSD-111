@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/* AUthor: Ian Kabaka, 
+
+admission number:BCS-03-0068/2026
+ Date May 25 2026 */
+
 int main(){
     int customer_age;
     double customer_income;

@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/* AUthor: Ian Kabaka, 
+
+admission number:BCS-03-0068/2026
+ Date May 22 2026 */
+
 #define PI 3.14159
 
 
