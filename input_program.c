@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-
+/* AUthor: Ian Kabaka, BCS-03-0068/2026 Date May 14 2026 */
 int main(){
     float height;
     double bank_balance;
