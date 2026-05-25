@@ -14,6 +14,6 @@ int main(){
         printf("you are eligible for the exams\n");
     }
     else{
-        printf("Not eligible");
+        printf("Not eligible.");
     }
 }
