@@ -18,7 +18,7 @@ int main(){
     if (water_units <= 30){
         total_bill = water_units * low_end_units;
     }
-    else if ( water_units >= 31 && water_units <= 60){
+    else if ( water_units > 30 && water_units <= 60){
         total_bill = water_units * mid_range_units;
     }
 
