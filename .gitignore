@@ -1,6 +1,12 @@
-# Compiled executables
+# Compiled executables (no extension — C output binaries)
+cylinde
+cylinder_volume
+input_program
+units_offered
 inputP
 units
+pointer_demo
+ampersand_test
 
 # General compiled object files (for larger projects)
 *.o
