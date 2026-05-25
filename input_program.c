@@ -15,10 +15,10 @@ int main(){
     scanf("%lf", &bank_balance);
 
     printf("enter your phone number:");
-    scanf("%s", &phone_number);
+    scanf("%s", phone_number);
 
-    printf("Height: %f\n", height);
-    printf("Bank balance amount: %lf\n", bank_balance);
+    printf("Height: %.2f\n", height);
+    printf("Bank balance amount: %.2lf\n", bank_balance);
     printf("phone number: %s\n", phone_number);
     
     
