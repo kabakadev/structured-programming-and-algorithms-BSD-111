@@ -8,6 +8,7 @@ units
 pointer_demo
 ampersand_test
 bank_l
+exam
 
 # General compiled object files (for larger projects)
 *.o
