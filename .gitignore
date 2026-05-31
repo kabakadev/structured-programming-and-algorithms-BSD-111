@@ -10,6 +10,7 @@ ampersand_test
 bank_l
 exam
 water
+mobile_data
 
 # General compiled object files (for larger projects)
 *.o
