@@ -1,3 +1,9 @@
+/* 
+  AUthor: Ian Kabaka. 
+  Admission number:BCS-03-0068/2026
+  Date May 25 2026 
+  
+*/
 #include <stdio.h>
 
 int main(){
