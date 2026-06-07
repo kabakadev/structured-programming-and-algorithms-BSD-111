@@ -11,6 +11,9 @@ bank_l
 exam
 water
 mobile_data
+water_bill_rep*
+qu*
+print_100
 
 # General compiled object files (for larger projects)
 *.o
