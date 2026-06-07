@@ -15,6 +15,7 @@ water_bill_rep*
 qu*
 print_100
 bank_while
+water_bill
 
 # General compiled object files (for larger projects)
 *.o
