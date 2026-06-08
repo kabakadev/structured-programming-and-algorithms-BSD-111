@@ -16,6 +16,8 @@ qu*
 print_100
 bank_while
 water_bill
+number_guessing
+
 
 # General compiled object files (for larger projects)
 *.o
