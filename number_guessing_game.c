@@ -19,8 +19,10 @@
         int the_random_number =  random_number(1,20);
         // printf("the random is %d\n", the_random_number);
         int user_input;
+        int attempts = 0;
 
         do{
+            attempts ++;
             printf("Enter any number here: ");
             scanf("%d", &user_input);
 
@@ -29,7 +31,8 @@
             } else if (user_input < the_random_number){
                 printf("too low\n");
             } else if(user_input == the_random_number){
-                printf("You got the number, it was %d\n",the_random_number );
+                printf("Congratulations!! You got the number, it was %d\n",the_random_number );
+                printf("it took you %d attempts \n", attempts);
             }
             
         } while(user_input != the_random_number);
