@@ -15,6 +15,7 @@ int main(){
         scanf("%s",userinput);
 
         if (userinput != "1234"){
+            printf("you entered, %s\n", userinput);
             printf("Wrong password keep trying: ");
         } else{
             printf("you got the password!!");
