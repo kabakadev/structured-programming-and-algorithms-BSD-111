@@ -12,7 +12,7 @@ exam
 water
 mobile_data
 water_bill_rep*
-qu*
+
 print_100
 bank_while
 water_bill
@@ -35,3 +35,7 @@ number_guessing
 # VSCode/IDE
 .vscode/
 .idea/
+# Scratch files to ignore
+question1.c
+question2.c
+question
