@@ -8,18 +8,19 @@
 
 int main(){
 
-    char userinput[5];
+    int userinput;
+
     
     printf("Enter the correct password to log in, it is a four digit password: ");
     do{
-        scanf("%s",userinput);
+        scanf("%d",&userinput);
 
-        if (userinput != "1234"){
-            printf("you entered, %s\n", userinput);
+        if (userinput != 1234){
+            printf("you entered, %d\n", userinput);
             printf("Wrong password keep trying: ");
         } else{
-            printf("you got the password!!");
+            printf("you got the password!!\n");
         }
-    }while(userinput != "1234");
+    }while(userinput != 1234);
     return 0;
 }
