@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/* 
+  AUthor: Ian Kabaka. 
+  Admission number:BCS-03-0068/2026
+  Date June 21 2026 
+  
+*/
+
 int calculateElectricBill(int number_of_units) {
     int total_bill = 0;
     
