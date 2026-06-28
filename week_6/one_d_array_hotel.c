@@ -1,13 +1,20 @@
 #include <stdio.h>
 
+/* 
+  AUthor: Ian Kabaka. 
+  Admission number:BCS-03-0068/2026
+  Date June 28 2026 
+  
+*/
+
 int main(){
     int i;
     int sum = 0;
     int average_daily_revenue;
 
-    int simple_weekly_array[7] = {100,500,600,700,100,400,300};
+    int revenue[7] = {100,500,600,700,100,400,300};
     for (i = 0; i<8;i++){
-        sum += simple_weekly_array[i];
+        sum += revenue[i];
 
     }
     printf("the weekly revenue is: %d\n",sum );
