@@ -24,28 +24,24 @@ int main(){
                 occupied ++;
             }
         }
-        printf("the total vacant for floor %d is %d\n", i,vacant);
-        printf("the total occupied for floor %d is %d\n", i,occupied);
+        printf("the total vacant for floor %d is %d\n", i+1,vacant);
+        printf("the total occupied for floor %d is %d\n", i+1,occupied);
     }
     
-    int branch = 0;
+
+    int rooms_occupied = 0;
     for (int o = 0; o<3; o++){
-        branch++;
         for (i = 0; i<5;i++){
-            int vacant = 0;
-            int occupied = 0;
            for (j=0; j<10;j++){
-              if (chain[o][i][j] == 0){
-                  vacant++;
-              }else {
-                  occupied ++;
-            }
+              if (chain[o][i][j] == 1){
+                  rooms_occupied++;
+              }
         }
-        printf("the total vacant for floor %d is %d in branch %d\n", i,vacant,branch);
-        printf("the total occupied for floor %d is %d in branch %d\n", i,occupied,branch);
+       
     }
     
 }
+printf("the total number of all occupied rooms is %d\n", rooms_occupied);
 return 0;
 
 }
